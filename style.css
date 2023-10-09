@@ -1,0 +1,55 @@
+
+  body, 
+  html {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    margin: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    margin: 10px;
+}
+
+.icon-buttons {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.icon-button {
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon-button:hover {
+    color: #4CAF50;
+    transform: scale(1.2);
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+h1, p, .icon-buttons {
+  z-index: 2;
+  position: relative;
+}
+
+
