@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio de Paulo Oliveira</title>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./projects.css">
+</head>
+<body>
+<section>
+    <div class="content">
+        <div class="info">
+            <h1>Paulo Oliveira - Portfólio</h1>
+            <p>
+                🤓 Sobre Mim: Tenho 23 anos e sou um programador júnior em ascensão! Amo programar, e minha paixão me levou a dominar algumas linguagens e tecnologias incríveis.
+            </p>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Tecnologia Python -->
+                <div class="swiper-slide">
+                    <img src="./img/python-logo.png" alt="Python" />
+                    <div class="overlay">
+                        <h2>Python</h2>
+                        <p>Minha linguagem favorita.</p>
+                    </div>
+                </div>
+
+                <!-- Tecnologia React -->
+                <div class="swiper-slide">
+                    <img src="./img/react-logo.png" alt="React" />
+                    <div class="overlay">
+                        <h2>React</h2>
+                        <p>Fascinado pelo desenvolvimento frontend.</p>
+                    </div>
+                </div>
+
+                <!-- Tecnologia Redes -->
+                <div class="swiper-slide">
+                    <img src="./img/networking-logo.png" alt="Networking" />
+                    <div class="overlay">
+                        <h2>Redes</h2>
+                        <p>Experiência com redes e servidores.</p>
+                    </div>
+                </div>
+
+                <!-- Tecnologia Visual Basic -->
+                <div class="swiper-slide">
+                    <img src="./img/visual-basic-logo.png" alt="Visual Basic" />
+                    <div class="overlay">
+                        <h2>Visual Basic</h2>
+                        <p>Conhecimento em desenvolvimento com VB.</p>
+                    </div>
+                </div>
+
+                <!-- Tecnologia PHP -->
+                <div class="swiper-slide">
+                    <img src="./img/php-logo.png" alt="PHP" />
+                    <div class="overlay">
+                        <h2>PHP</h2>
+                        <p>Experiência com desenvolvimento backend em PHP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.swiper', {
+        // Opções do Swiper
+        effect: "cards",
+        grabCursor: true,
+        initialSlide: 2,
+        speed: 500,
+        loop: true,
+        mousewheel: {
+            invert: false,
+        },
+    });
+});
+</script>
+</body>
+</html>
