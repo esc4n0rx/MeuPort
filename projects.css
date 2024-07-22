@@ -55,6 +55,9 @@ section {
   margin-bottom: 20px;
   line-height: 1.5;
 }
+.h1 {
+  color: #fff;
+}
 
 .movie-night {
   background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
